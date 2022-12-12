@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d353c46ee0763744826c011b0d21398, type: 3}
+  m_Name: Dockdo SeWu
+  m_EditorClassIdentifier: 
+  modelPrefab: {fileID: 0}
+  itemIcon: {fileID: 21300000, guid: bbb8557ad5c1f0c41a3a3ffa7d93586f, type: 3}
+  hiddenItemIcon: {fileID: 0}
+  descriptionImage: {fileID: 21300000, guid: 71e60617804e96846adbf0e1de750da8, type: 3}
+  itemName: "\uB3C5\uB3C4 \uC0C8\uC6B0"
+  description: "\uBCF4\uC774\uB294 \uAC83 \uBCF4\uB2E4 \uC5C4\uCCAD \uD06C\uB2E4."
+  maxLength: 0
+  minLength: 0
+  earned: 0
+  isNew: 0
+  catchCount: 0
