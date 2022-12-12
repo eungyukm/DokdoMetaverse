@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2813454216300113615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2813454216300113613}
+  - component: {fileID: 2813454216300113612}
+  m_Layer: 4
+  m_Name: Water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 64
+  m_IsActive: 1
+--- !u!4 &2813454216300113613
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813454216300113615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.59356, y: -4.357276, z: 12.0475855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2813454216395095286}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2813454216300113612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813454216300113615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6edb8448c9b94f018953ca2a6fa5891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  computeOverride: 0
+  _depthTex: {fileID: 0}
+  bakedDepthTex: {fileID: 0}
+  _waves:
+  - amplitude: 0.25226766
+    direction: -88.46054
+    wavelength: 5.838828
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.26699224
+    direction: -264.46985
+    wavelength: 7.8781013
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.4703551
+    direction: -248.35088
+    wavelength: 8.986
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.42095274
+    direction: -134.96402
+    wavelength: 11.314446
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.6058225
+    direction: -224.16226
+    wavelength: 13.336667
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.6613944
+    direction: -180.3995
+    wavelength: 15.106792
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.5507904
+    direction: -264.3355
+    wavelength: 12.669838
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  settingsData: {fileID: 11400000, guid: a4cacf74654e54b35b9eaea74fd20b4e, type: 2}
+  surfaceData: {fileID: 11400000, guid: 846f3dc3b5341447a86687211f741bc7, type: 2}
+  resources: {fileID: 11400000, guid: 40615c805d6e84ce7800418367985fe1, type: 2}
+--- !u!1 &2813454216395095240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2813454216395095286}
+  - component: {fileID: 2813454216395095241}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2813454216395095286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813454216395095240}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 60.781006, y: 72.51998, z: 691.69617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2813454216300113613}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2813454216395095241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813454216395095240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 0.5
+  sharedProfile: {fileID: 11400000, guid: 9b18736de97b40648a7d66374219bb51, type: 2}
