@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CinemachineTarget
+  - Item
+  - LootBox
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Post Processing
+  - Water
+  - UI
+  - Player
+  - URP
+  - SnapHexGrid
+  - ACSCulling
+  - Point
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - MaskedObject
+  - Mask
+  - Depth Mask
+  - 
+  - Enemy
+  - MovingPlatform
+  - Touch Zone
+  - Ignore Input
+  - Floor
+  - InterationArea
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
